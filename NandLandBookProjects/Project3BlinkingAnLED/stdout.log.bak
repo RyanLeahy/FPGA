@@ -1,0 +1,78 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    RYANS-LAPTOP
+Date:        Thu Jul 25 20:35:24 2024
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch Project3BlinkingAnLED_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\Users\rplea\OneDrive\Desktop\Not School\FPGA\NandLandBookProjects\Project3BlinkingAnLED\Project3BlinkingAnLED_Implmnt\Project3BlinkingAnLED.srr"
+Running: Project3BlinkingAnLED_Implmnt in foreground
+
+Running Project3BlinkingAnLED_syn|Project3BlinkingAnLED_Implmnt
+
+Running: compile (Compile) on Project3BlinkingAnLED_syn|Project3BlinkingAnLED_Implmnt
+# Thu Jul 25 20:35:24 2024
+
+Running: compile_flow (Compile Process) on Project3BlinkingAnLED_syn|Project3BlinkingAnLED_Implmnt
+# Thu Jul 25 20:35:24 2024
+
+Running: compiler (Compile Input) on Project3BlinkingAnLED_syn|Project3BlinkingAnLED_Implmnt
+# Thu Jul 25 20:35:24 2024
+Copied C:\Users\rplea\OneDrive\Desktop\Not School\FPGA\NandLandBookProjects\Project3BlinkingAnLED\Project3BlinkingAnLED_Implmnt\synwork\Project3BlinkingAnLED_comp.srs to C:\Users\rplea\OneDrive\Desktop\Not School\FPGA\NandLandBookProjects\Project3BlinkingAnLED\Project3BlinkingAnLED_Implmnt\Project3BlinkingAnLED.srs
+
+compiler completed
+# Thu Jul 25 20:35:26 2024
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on Project3BlinkingAnLED_syn|Project3BlinkingAnLED_Implmnt
+# Thu Jul 25 20:35:26 2024
+
+multi_srs_gen completed
+# Thu Jul 25 20:35:26 2024
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Users\rplea\OneDrive\Desktop\Not School\FPGA\NandLandBookProjects\Project3BlinkingAnLED\Project3BlinkingAnLED_Implmnt\synwork\Project3BlinkingAnLED_mult.srs to C:\Users\rplea\OneDrive\Desktop\Not School\FPGA\NandLandBookProjects\Project3BlinkingAnLED\Project3BlinkingAnLED_Implmnt\Project3BlinkingAnLED.srs
+Complete: Compile Process on Project3BlinkingAnLED_syn|Project3BlinkingAnLED_Implmnt
+
+Running: premap (Pre-mapping) on Project3BlinkingAnLED_syn|Project3BlinkingAnLED_Implmnt
+# Thu Jul 25 20:35:26 2024
+
+premap completed with warnings
+# Thu Jul 25 20:35:26 2024
+
+Return Code: 1
+Run Time:00h:00m:00s
+Complete: Compile on Project3BlinkingAnLED_syn|Project3BlinkingAnLED_Implmnt
+
+Running: map (Map) on Project3BlinkingAnLED_syn|Project3BlinkingAnLED_Implmnt
+# Thu Jul 25 20:35:26 2024
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on Project3BlinkingAnLED_syn|Project3BlinkingAnLED_Implmnt
+# Thu Jul 25 20:35:26 2024
+Copied C:\Users\rplea\OneDrive\Desktop\Not School\FPGA\NandLandBookProjects\Project3BlinkingAnLED\Project3BlinkingAnLED_Implmnt\synwork\Project3BlinkingAnLED_m.srm to C:\Users\rplea\OneDrive\Desktop\Not School\FPGA\NandLandBookProjects\Project3BlinkingAnLED\Project3BlinkingAnLED_Implmnt\Project3BlinkingAnLED.srm
+
+fpga_mapper completed with warnings
+# Thu Jul 25 20:35:28 2024
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Map on Project3BlinkingAnLED_syn|Project3BlinkingAnLED_Implmnt
+Complete: Logic Synthesis on Project3BlinkingAnLED_syn|Project3BlinkingAnLED_Implmnt
+
+exit status=0
+
+exit status=0
+
