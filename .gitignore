@@ -5,3 +5,4 @@ synlog.tcl
 *.log
 *.project
 *.prj
+*.bak
