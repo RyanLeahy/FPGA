@@ -28,14 +28,15 @@ begin
     process(i_Clk) is
     begin
         if rising_edge(i_Clk) then
-            if r_Col_Count = g_TOTAL_COLS-1 then     -- Terminal count on column
-                if r_Row_Count = g_TOTAL_ROWS-1 then -- Also terminal count on row
+            if r_Col_Count = g_TOTAL_COLS-1 then     -- Terminal count for column
+                if r_Row_Count = g_TOTAL_ROWS-1 then -- Also terminal count for row
                     r_Row_Count <= 0;
                 else                                 -- Not terminal count for row, increment counter
                     r_Row_Count <= r_Row_Count + 1;
                 end if;
+
                 r_Col_Count <= 0;
-            else                                     -- Not terminal count on column, increment counter
+            else                                     -- Not terminal count for column, increment counter
                 r_Col_Count <= r_Col_Count + 1;
             end if;
         end if;
